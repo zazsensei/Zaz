@@ -1,0 +1,152 @@
+/*
+Adjusts existing templates to accomodate bar.
+--------------------------------------------*/
+html body 
+  {
+    margin:0;
+    padding-top:0;
+    padding-left:0;
+    padding-right:0;
+  }
+  
+body #header {margin-top:50px;}
+#wrap2 {margin-top:30px;}    
+#wrapper {padding-top:30px !important;}
+#wrap {padding-top:30px;}
+#main-top {margin-top:10px;}
+
+html>body #wrap {padding-top:30;}
+html>body #wrap2 {margin-top:0px;}
+#wrap4 {margin-top:60px !important;}
+
+#space-for-ie {
+  display:none;
+  _border:0 !important;
+  _display:block;
+}
+
+#wrap #wrap2 #wrap3
+  {
+    margin-top:-30px;
+  }
+  
+body #wrap #wrap2 #header
+  {
+    margin-top:0;
+  }
+
+/* for Tekka */
+#rightcontent {margin-top:30px !important;}
+#leftcontent {_margin-top:30px !important;}
+
+#Main #Title {margin-top:30px !important;}
+
+
+
+/*
+The bar.
+--------------------------------------------*/
+  
+  
+#b-navbar 
+  {
+  width:100%;
+  padding-bottom:5px;
+  border-bottom:1px solid #024;
+  min-height:24px;
+  font:x-small "Trebuchet MS",Verdana,Arial,Sans-serif !important;
+  color:#47a;
+  font-size/* */:/**/small !important; 
+  font-size: /**/small !important;
+  margin-bottom:10px;
+  position:absolute !important;
+  top:0;
+  left:0;
+  z-index:1;
+  display:block !important;
+  }
+
+
+#b-navbar a img 
+  {
+    border:none;
+    display:inline !important;
+  }
+  
+#b-navbar #b-logo 
+  {
+    position:absolute !important;
+    top:3px;
+    left:5px;
+    width:80px;
+    height:24px;
+    border-width:0;
+  }
+  
+#b-logo img 
+  {
+    display:inline !important;
+  }
+  
+#b-search 
+  {
+    background:#147 url("../../img/navbar/corner.gif") no-repeat left bottom;
+    margin:0 0 0 100px;
+    padding:4px 7px;
+    line-height:1em;
+    font-size:85%;
+    text-align:left;
+  }
+  
+#b-more 
+  {
+    float:right;
+    padding-top:2px;
+    display:block !important;
+  }
+  
+#b-more a 
+  {
+    margin-left:4px;
+  }
+  
+#b-query 
+  {
+    margin-right:.25em;
+    width:12em;
+  }
+  
+/* hide from IE5-Mac \*/
+#b-query 
+  {
+    font-size:x-small !important;
+  }
+/* end hide */
+
+#b-searchbtn 
+  {
+    position:relative;
+    top:-1px;
+    margin-right:.5em;
+    vertical-align:middle;
+  }
+  
+#b-this
+  {
+    display:block !important;
+  }
+  
+#b-this a 
+  {
+    margin-right:.5em;
+    white-space:nowrap;
+    text-decoration:none;
+    line-height:1em;
+  }
+  
+#b-this a:hover 
+  {
+    color:#fff;
+    text-decoration:underline;
+  }
+

@@ -1,0 +1,41 @@
+Greetings High Councillor Zaz,
+
+Due to security reasons I do this via email instead of forum.
+
+The Plesk license issue has been resolved and I configured the forum and uploaded the attachments.
+Which opens up the next phase: Migrating www and mail services.
+I also created a www subdomain and added a few mail addresses in preperation of migrating the old server which is still maintaining www and mail.
+The mail dns is still directed at the old server until you let me know your ready for the switch.
+
+Below you'll find a summary of the access information.
+Please do not share this information with others as it gives access to all the forum.tgbo.net and www.tgbo.net data, including the posts and passwords stored in the database.
+
+Server main dns: box.tgbo.net
+Control Panel: https://box.tgbo.net:8443/
+Webmail: http://webmail.tgbo.net/ using mail userdata
+POP3/IMAP dns: box.tgbo.net (not tgbo.net and not mail.tgbo.net, although those will be configured the same once the old server is discarded)
+ftp services: ftp://box.tgbo.net/ using *.tgbo.net userdata
+
+*.tgbo.net username: guardians
+*.tgbo.net password: tgboe8b
+
+your mail username: zaz@tgbo.net
+your mail password: sensei
+
+Additionally you should be able to access the mail via pop3, imap or webmail.
+However you can, if you wish, configure the mailbox as a redirect using the control panel logged in with your mail username.
+
+I would like to ask if you can upload and prepare the www data, via ftp you can see that space in ./subdomains/www/httpdocs/
+its real path is /var/www/vhosts/tgbo.net/subdomains/www/httpdocs/ however I would like to ask if you can make all scripting relative path only.
+However this www isn't accessible because the dns is still pointing to the old server. So I created a temporarly subdomain www.dev.tgbo.net (./subdomains/www.dev/httpdocs/) where you can prepare and test the site.
+
+Can you lemme know when you can do this? Tnx alot.
+Feel free to communicate with YIM (offline) messages, just keep passwords out of it Smile
+
+Obi Kandon
+
+
+Step 1: Install Plesk
+Step 2: Migrate www and mail services
+Step 3: Create gameserver interface (usermin perhaps)
+Step 4: NWN?
